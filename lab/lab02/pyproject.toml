@@ -1,0 +1,16 @@
+[project]
+name = "lab02"
+version = "0.1.0"
+description = "lab02"
+authors = [
+    { name = "'lczhuigz'", email = "'lczhuigz@163.com'" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv.build-backend]
+namespace = true
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"

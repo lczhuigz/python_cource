@@ -1,15 +1,15 @@
 [project]
-name = "lab01"
+name = "lab03"
 version = "0.1.0"
-description = "lab01"
+description = "lab03"
 authors = [
     { name = "'lczhuigz'", email = "'lczhuigz@163.com'" }
 ]
 requires-python = ">=3.12"
 dependencies = []
 
-[tool.uv.build-backend]
-namespace = true
+[project.scripts]
+lab03 = "lab03.main:main"
 
 [build-system]
 requires = ["uv_build>=0.12.17,<0.13.0"]
